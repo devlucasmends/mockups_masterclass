@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:mockups_masterclass8/components/sign_up_buttons.dart';
-import 'package:mockups_masterclass8/components/under_logo.dart';
+import 'package:mockups_masterclass8/src/features/under_mockup/components/custom_buttons_under.dart';
+import 'package:mockups_masterclass8/src/features/under_mockup/components/under_logo.dart';
 
 class UnderPage extends StatelessWidget {
   const UnderPage({super.key});
@@ -40,14 +40,14 @@ class UnderPage extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 80),
-                const SignUpButtons(
+                const CustomButtonsUnder(
                   textButton: 'Sign Up with Email ID',
                   backgroundButtonColor: Color(0xff5e5ce5),
                   textButtonColor: Color(0xffe1e1ff),
                   textClick: 'Click Sign Up Email',
                 ),
                 const SizedBox(height: 15),
-                const SignUpButtons(
+                const CustomButtonsUnder(
                   textButton: 'Sign Up with Google',
                   backgroundButtonColor: Color(0xffebebeb),
                   textButtonColor: Color(0xff3a3a3a),

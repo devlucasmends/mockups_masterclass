@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class SignUpButtons extends StatelessWidget {
+class CustomButtonsUnder extends StatelessWidget {
   final String textButton;
   final String textClick;
   final Color backgroundButtonColor;
   final Color textButtonColor;
   final String? iconButton;
 
-  const SignUpButtons(
+  const CustomButtonsUnder(
       {super.key,
       required this.textButton,
       required this.backgroundButtonColor,
